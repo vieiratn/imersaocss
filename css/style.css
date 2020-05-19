@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffff4e;
+    text-decoration: none;
+}
+
+h2 {
+    font-family: "Arvo";
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: "Arvo";
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+h4 {
+    font-family: "Arvo";
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+
+.top-container {
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    border-bottom: 2px solid gold;
+}
+
+@media (max-width: 610px) {
+    .top-container {
+        justify-content: center;
+    }
+}
+
+
+.header-logo {
+    display: flex;
+    font-family: "Arvo";
+    font-size: 1rem;
+    font-weight: bolder;
+    color: #fff;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+@media (max-width: 380px) {
+    .header-logo {
+        font-size: 0.7rem;
+    }
+}
+
+.header-nav {
+    display: flex;
+}
+
+@media (max-width: 610px) {
+    .header-nav {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+.header-menu {
+    list-style: none;
+    display: flex;
+    font-family: "Jost";
+    font-size: 1rem;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+@media (max-width: 380px) {
+    .header-menu {
+        font-size: 0.8rem;
+    }
+}
+
+.header-menu li {
+    padding: 10px;
+}
+
+.hero-container {
+    background-color: #ffff4e;
+    height: 50vh;
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 610px) {
+    .hero-container {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 380px) {
+    .hero-container {
+        margin-top: 70px;
+    }
+}
+
+.idea-img {
+    width: 200px;
+    height: 200px;
+}
+
+.hero-title {
+    font-family: "Arvo";
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    text-shadow: 1px 1px #292929;
+}
+
+.about-container{
+    background-color: #292929;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color:white;
+    text-align: center;
+}
+
+.about-div {
+    width: 80vw;
+    margin: auto;
+}
+
+.about-img {
+    width: 150px;
+    height: 150px;
+    margin: 2% auto;
+    background-color: #ECE5DD;
+    border-radius: 50%;
+    border: 1px solid gold;
+}
+
+.about-title {
+    padding-top: 1%;
+}
+
+.about-text {
+    padding-top: 1%;
+    font-family: "Jost";
+    font-size: 1rem;
+}
+
+.cta-container {
+    text-align: center;
+    background-color: #075E54;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.solutions-container {
+    background-color: #292929;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: white;
+}
+
+.solutions-title {
+    padding-top: 1%;
+    margin: 2% auto;
+}
+
+.solutions-row {
+    display: flex;
+}
+
+@media (max-width: 800px) {
+    .solutions-row {
+        flex-wrap: wrap;
+    }
+}
+
+.solutions-img {
+    width: 150px;
+    height: 150px;
+    background-color: #ECE5DD;
+    border-radius: 50%;
+    border: 1px solid gold;
+}
+
+.solutions-box {
+    padding: 1rem;
+    margin: 1%;
+}
+
+.solutions-text {
+    padding-top: 1%;
+    font-family: "Jost";
+    font-size: 1rem;
+}
+
+.portfolio-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #292929;
+    text-align: center;
+    color: white;
+}
+
+.portfolio-title {
+    padding-top: 3%;
+}
+
+.portfolio-text {
+    padding-top: 1%;
+    font-family: "Jost";
+    font-size: 1rem;
+    width: 80vw;
+    margin: auto;
+}
+
+.portfolio-text p {
+    margin: 2% auto;
+}
+
+.portfolio-projects-title {
+    margin-top: 20px;
+}
+
+.portfolio-projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2% auto;
+}
+
+.portfolio-projects-pro {
+    padding: 2%;
+}
+
+.portfolio-projects-pro p {
+    font-family: "Arvo";
+    font-size: 1rem;
+
+}
+
+.portfolio-github {
+    margin: 20px auto;
+}
+
+.portfolio-github p {
+    margin-top: 2%;
+}
+
+.specialization-title {
+    margin: 2% auto;
+}
+
+.specialization-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.specialization-icons p {
+    padding: 15px;
+}
+
+.specialization-icons i:hover {
+    color: white;
+}
+
+.fa-html5 {
+    color: red;
+}
+
+.fa-css3-alt {
+    color: blue;
+}
+
+.fa-js-square {
+    color: yellow;
+}
+
+.fa-python {
+    color: blue;
+}
+
+.contact-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #292929;
+    text-align: center;
+    color: white;
+}
+
+.contact-container p {
+    font-family: "Jost";
+    font-size: 1rem;
+}
+
+.contact-box {
+    padding: 10px;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-icons p {
+    padding: 15px;
+}
+
+.contact-copy {
+    padding-top: 2%;
+}
