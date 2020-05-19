@@ -66,7 +66,7 @@ h4 {
     margin-left: 10px;
 }
 
-@media (max-width: 380px) {
+@media (max-width: 415px) {
     .header-logo {
         font-size: 0.7rem;
     }
@@ -92,9 +92,10 @@ h4 {
     margin-right: 30px;
 }
 
-@media (max-width: 380px) {
+@media (max-width: 415px) {
     .header-menu {
         font-size: 0.8rem;
+        margin-right: 0;
     }
 }
 
@@ -121,7 +122,7 @@ h4 {
     }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 415px) {
     .hero-container {
         margin-top: 70px;
     }
